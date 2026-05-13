@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# RSNA / course data (large; not part of code submission)
+stage_2_train_images/
+stage_2_test_images/
+stage_2_train_labels.csv
+
+# Local copy of spec (keep .txt in repo); PDF optional / large
+ExtraHomewrok.pdf
+
+# Optional local artifacts
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

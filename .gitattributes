@@ -1,0 +1,2 @@
+# GitHub file limit 100 MB — model weights tracked with Git LFS
+checkpoints/*.pt filter=lfs diff=lfs merge=lfs -text
